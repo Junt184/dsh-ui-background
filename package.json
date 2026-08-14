@@ -1,6 +1,6 @@
 {
   "name": "dsh-ui-background",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Web GUI appearance plugin for dsh: background image, transparent background, and background opacity, with a settings row in the General section",
   "type": "module",
   "main": "lib/index.js",
