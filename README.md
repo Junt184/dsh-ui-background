@@ -27,6 +27,9 @@
 插件是一个声明了 `dsh.bundle.patch` 的 npm 包，通过 `dsh plugin` 装进 profile：
 
 ```sh
+# 直接从 GitHub 安装（推荐给其他人用；本包已带构建产物，无需编译）
+dsh plugin --profile web add github:Junt184/dsh-ui-background
+
 # 从本地目录软链安装（开发/迭代推荐，改源码后重启 dsh web 即生效）
 dsh plugin --profile web add link:/绝对路径/dsh-ui-background
 
