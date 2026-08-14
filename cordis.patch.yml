@@ -1,0 +1,8 @@
+# dsh-ui-background bundle patch: adds the background appearance plugin to the
+# web browser roster (a `dsh.client` row). The package is dual-face — its node
+# half (lib/index.js) registers the durable `ui-background` settings namespace,
+# its client half (lib/client.js) renders the settings row and applies the
+# background. One row serves both faces, exactly like the shipped ui-theme row.
+- insert:
+    - id: ui-background
+      name: 'dsh-ui-background'
